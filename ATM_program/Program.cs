@@ -88,7 +88,11 @@ namespace ATM_program
                                     }
                                     b += withdrawAmount;
                                     c = c - withdrawAmount;
-                                    Console.WriteLine($"Remainder: {c}");
+                                    if(c< withdrawAmount)
+                                    {
+                                        Console.WriteLine("insufficient funds ");
+                                    }
+                                    
                                     break;
 
                                 case 3:
