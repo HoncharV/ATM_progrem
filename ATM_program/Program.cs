@@ -96,6 +96,7 @@ namespace ATM_program
                                     break;
 
                                 case 3:
+                                    
                                     Console.WriteLine($"Your Balance: {c}");
                                     break;
 
